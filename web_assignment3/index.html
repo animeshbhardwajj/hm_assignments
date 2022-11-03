@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <center>
+    <h1>Time Table using HTML and CSS</h1>
+    <table>
+        <colgroup>
+            <col span="5">
+            <col style="border: 4px solid rgb(162, 88, 88)">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Time & Day:</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Teusday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">09:00-10:00am</th>
+                <td>E-Commerce</td>
+                <td>E-Commerce</td>
+                <td>Free</td>
+                <td>Free</td>
+                <td>Statics</td>
+                <td>Statics</td>
+            </tr>
+            <tr>
+                <th scope="row">10:00-11:00am</th>
+                <td>ASP .Net</td>
+                <td>ASP .Net</td>
+                <td>Free</td>
+                <td>Free</td>
+                <td>ASP .Net</td>
+                <td>Operating System</td>
+            </tr>
+            <tr>
+                <th scope="row">11:00-12:00pm</th>
+                <td>Operating System</td>
+                <td>Operating System</td>
+                <td>Free</td>
+                <td>Free</td>
+                <td>Statics</td>
+                <td>Statics</td>
+            </tr>
+
+            <tr>
+                <th scope="row">12:00-01:00pm</th>
+                <td rowspan="4" scope="rowgroup">Free</td>
+                <td rowspan="2" scope="rowgroup">Free</td>
+                <td colspan="2" scope="row">Free</td>
+                <td>ASP .Net</td>
+                <td>ASP .Net</td>
+            </tr>
+            <tr>
+                <th scope="row">01:00-02:00pm</th>
+                <td>OPerating System</td>
+                <td>Free</td>
+                <td>ASP .Net</td>
+                <td>ASP .Net</td>
+        </tbody>
+    </table></center>
+</body>
+
+</html>
