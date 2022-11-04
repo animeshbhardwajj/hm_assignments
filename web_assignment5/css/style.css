@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+button{
+    background-color: green;
+    border: double;
+    color: white;
+    padding: 17px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(99, 99, 68);
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+}
+.div1{
+    border: 1px solid;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
