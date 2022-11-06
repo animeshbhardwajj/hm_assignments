@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <script src="js/main.js"></script>
     <title>Creating Static Page Using HTML & CSS</title>
 </head>
@@ -17,21 +17,21 @@
     <div class="nav">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">Java Script</a></li>
-                <li><a href="#">About</a></li>
+                <li onclick="home()"><a href="#">Home</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">Java Script</a></li>
+                <li onclick="about()"><a href="#">About</a></li>
             </ul>
         </nav>
     </div>
-    
-    <article class="article1">
+    <div class="article1">
+    <article id="html">
         <b>
-            <h1 style="font-size: 60px;">What is HTML?</h1>
+            <h1 style="font-size: 50px;">What is HTML?</h1>
         </b><br>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
-            alt="HTML">
+            alt="HTML" style="float: left; height: 200px; width: 220px">
 
         <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed
             in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages
@@ -74,12 +74,22 @@
         <br>
 
     </article>
-    <article class="article2">
+    </div>
+    <center>
+    <div class="sidebar" id="#about"><aside>
+       <h2 style="font-size:40px;">Author</h2> <br>
+        <img src="images/profile.png" alt="profile png" style="height: 10rem; width: 10rem"><br>
+        <span> This is a Author Box where Author can tell about his writing skills.</span><br>
+        <b>- Author Name</b>
+    </aside></div></center>
+
+    <div class="article2">
+    <article id="css">
         <b>
-            <h1 style="font-size: 60px;">What is CSS?</h1>
+            <h1 style="font-size: 50px;">What is CSS?</h1>
         </b><br>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-            alt="css">
+            alt="css" style="float: left; height: 200px; width: 150px; padding: 15px 10px">
 
         <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written
             in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside
@@ -123,11 +133,13 @@
         <br>
 
     </article>
-    <article class="article3">
+</div>
+<div class="article3">
+    <article id="js">
         <strong>
-            <h1 style="font-size: 60px;">What is JavaScript?</h1>
+            <h1 style="font-size: 50px;">What is JavaScript?</h1>
         </strong><br>
-        <img src="https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2020/08/JavaScript-logo.png" alt="css">
+        <img src="https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2020/08/JavaScript-logo.png" alt="JS" style="float: left; height: 200px; width: 130px; padding: 15px 10px">
 
         <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the
             World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for
@@ -171,9 +183,7 @@
         <br><br><br><br>
 
     </article>
-    <aside>
-        <img src="images/profile.png" alt="">
-    </aside>
+</div>
     <br>
     <footer>
         <b>
